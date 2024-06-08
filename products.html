@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Treasure's Treats</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <img src="treasures logo.jpg" alt="Treasure's Treats" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <a href="cart.html" class="icon-link">
+            <img src="icon.png" alt="Cart" class="nav-icon">
+        </a>
+
+           
+        </header>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="chicken.jpg" alt="Product 1">
+                    <h3>Chicken pie</h3>
+                    <p class="price">$2.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="jam.jpg" alt="Product 2">
+                    <h3>Jam doughnut</h3>
+                    <p class="price">$3.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="chocodonut.jpg" alt="Product 2">
+                    <h3>Chocolate filled doughnut</h3>
+                    <p class="price">$3.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="glazed.jpg" alt="Product 2">
+                    <h3>Glazed doughnut</h3>
+                    <p class="price">$1.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="meat.jpg" alt="Product 2">
+                    <h3>Meat pie</h3>
+                    <p class="price">$5.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="redvelvet.jpg" alt="Product 2">
+                    <h3>Red velvet parfait</h3>
+                    <p class="price">$15.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="vanilla.jpg" alt="Product 2">
+                    <h3>Vanilla parfait</h3>
+                    <p class="price">$15.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="choco.jpg" alt="Product 2">
+                    <h3>chocolate parfait</h3>
+                    <p class="price">$15.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="pol.jpg" alt="Product 2">
+                    <h3>small chops</h3>
+                    <p class="price">$15.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="platter.jpg" alt="Product 2">
+                    <h3>Small chops platter</h3>
+                    <p class="price">$15.00</p>
+                    <div class="quantity-controls">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0" class="quantity">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+               
+                <!-- Add more products as needed -->
+            </div>
+            <div class="cart-total">
+                <h3>Total: $<span id="total-price">0.00</span></h3>
+            </div>
+            <!-- Cart Section -->
+        <section id="cart">
+            
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                
+            </div>
+            <button id="clear-cart">Clear Cart</button>
+        </section>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <img src="treasures logo.jpg" alt="Treasure's Treats" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social-media">
+                    <a href="#"><img src="face.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/treasures_treat?igsh=YzljYTk1ODg3Zg=="><img src="insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="tweet.png" alt="Twitter"></a>
+                </div>
+                <p>© 2024 Treasure's Treats. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
